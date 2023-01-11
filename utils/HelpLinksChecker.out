@@ -1,0 +1,41 @@
+Checking help file links
+
+Results:
+147 distinct help targets
+147 help mappings
+0 invalid targets
+26 unused targets
+    uniprotfetcher: html/features/uniprotsequencefetcher.html
+    overviewprefs: html/features/preferences.html#overview
+    cdnafeatures: html/features/codingfeatures.html
+    ensemblfetch: html/features/ensemblsequencefetcher.html
+    io.modellerpir: html/io/modellerpir.html
+    pdbmcviewer: html/features/pdbviewer.html
+    groovy.colours: html/features/groovy.html#groovyColours
+    seqmappings: html/features/seqmappings.html
+    uniprotfts: html/features/uniprotsequencefetcher.html#uniprotfts
+    splitframe.mirrorfonts: html/features/splitView.html#mirror
+    subtMatrices.pam250: html/calculations/scorematrices.html#pam250
+    search: html/features/search.html
+    viewingpdbs.reps: html/features/viewingpdbs.html#viewreps
+    alformats: html/io/fileformats.html
+    strucprefs: html/features/preferences.html#structure
+    siftsmapping: html/features/siftsmapping.html
+    chimera.annotxfer: html/features/chimera.html#annotxfer
+    pdbfts: html/features/pdbsequencefetcher.html#pdbfts
+    newkeys: html/features/newkeystrokes.html
+    importvcf.attribs: html/features/importvcf.html#attribs
+    seqfeatures.settings.selcols: html/features/featuresettings.html#selectbyfeature
+    jalarchive: html/features/jalarchive.html
+    newsreader: html/webServices/newsreader.html
+    popMenuAddref: html/menus/popupMenu.html#addrefannot
+    splitframe.virtualfeats: html/features/splitView.html#virtualfeats
+    overview: html/features/overview.html
+0 invalid map urls
+0 invalid image attributes
+403 internal href links (79 with anchors)
+0 invalid internal href links
+0 invalid internal anchor links
+105 external href links
+External links not verified as internet not available
+*** Success ***

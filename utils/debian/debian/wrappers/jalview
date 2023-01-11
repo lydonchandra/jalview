@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -e
+ARG1=$1
+
+# copy the debian default settings if no user jalview settings file exist
+if [ -n "${HOME}" -a \! -e ${HOME}/.jalview_properties ]; then
+  /bin/cp /etc/jalview_properties ${HOME}/.jalview_properties
+fi
+
+# check to see if $1 is set and is not start of other cli set args
+OPEN=""
+if [ -n "$ARG1" -a "$ARG1" = "${ARG1#-}" ]; then
+  # first argument exists and does not start with a "-"
+  OPEN="-open"
+fi
+  
+java -jar /usr/share/java/jalview.jar $OPEN "$@"

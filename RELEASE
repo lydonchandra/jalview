@@ -1,0 +1,4 @@
+git.branch=releases/Release_2_11_2_Branch
+git.hash=519295fc04
+jalview.release=releases/Release_2_11_2_Branch
+jalview.version=2.11.2.5
